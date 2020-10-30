@@ -75,7 +75,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-bottom: 1px dashed black;
 }
 
@@ -100,6 +100,37 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color:gold ;
+
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
 
 .middle-content .boxes .box {
     width: 12.5%;
@@ -112,6 +143,8 @@ p {
     justify-content: center;
 }
 
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -121,6 +154,7 @@ p {
 .bottom-content .text-container {
     padding-right: 4%;
 }
+
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
@@ -144,3 +178,58 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 6% ;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    text-decoration: none;
+}
+header a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+
+#about{
+    margin-bottom: 3%;
+    border-bottom: 1px dashed black;
+    margin-top: 2%;
+}
+#everybox{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.pic{
+    width: 50%;
+    margin-bottom: 2%;
+    border-bottom: 1px dashed black;
+    padding: 0 0 1%;
+}
+.pic h2{
+    padding-top: 3%;
+}
+.pic button{
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    width: 35%;
+}
+
+    
+
+
+
+
+
+
